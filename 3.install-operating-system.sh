@@ -27,3 +27,8 @@ mkisofs -o ../CentOS-6.5-x86_64-minimal-kickstart.iso -b isolinux/isolinux.bin -
 cd -
 VBoxManage storageattach "$1" --storagectl "IDE Controller" --port 1 --device 0 --type dvddrive --medium Build-Assets/CentOS-6.5-x86_64-minimal-kickstart.iso
 VBoxManage startvm $1
+echo "Waiting for machine $1 to finish installing..."
+until $(VBoxManage showvminfo --machinereadable $1 | grep -q ^VMState=.poweroff.)
+do
+sleep 5
+done
