@@ -3,11 +3,11 @@ Build Scripts
 
 These scripts are my attempt at improving my knowledge and capabilities with continuous integration. The goal is to quickly "spin up" new flavours of servers without any manual intervention.
 
-MILESTONE 1: Minimal server installation with dynamic IP. *This milestone was met on Feb 4, 2014. Complete process from start to finish takes around 4 minutes.*
-MILESTONE 2: Web server with static IP.
-MILESTONE 3: Continuous Integration server with static IP.
-MILESTONE 4: Ability to scale Continuous Integration server to multiple build agents.
-MILESTONE 5: Happy to take suggestions if anyone has a problem that needs solving.
+MILESTONE 1: Minimal server installation with dynamic IP. *This milestone was met on Feb 4, 2014. Complete process from start to finish takes around 4 minutes.*<br />
+MILESTONE 2: Web server with static IP.<br />
+MILESTONE 3: Continuous Integration server with static IP.<br />
+MILESTONE 4: Ability to scale Continuous Integration server to multiple build agents.<br />
+MILESTONE 5: Happy to take suggestions if anyone has a problem that needs solving.<br />
 
 DISCLAIMER: I'm no Linux whizz, I'm merely a nerd that wants to learn. Feedback is extremely welcome.
 
