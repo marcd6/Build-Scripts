@@ -1,5 +1,15 @@
-Build-Scripts
+Build Scripts
 =============
+
+These scripts are my attempt at improving my knowledge and capabilities with continuous integration. The goal is to quickly "spin up" new flavours of servers without any manual intervention.
+
+MILESTONE 1: Minimal server installation with dynamic IP.
+MILESTONE 2: Web server with static IP.
+MILESTONE 3: Continuous Integration server with static IP.
+MILESTONE 4: Ability to scale Continuous Integration server to multiple build agents.
+MILESTONE 5: Happy to take suggestions if anyone has a problem that needs solving.
+
+DISCLAIMER: I'm no Linux whizz, I'm merely a nerd that wants to learn. Feedback is extremely welcome.
 
 1.install-virtual-machine-host.sh
 ---------------------------------
